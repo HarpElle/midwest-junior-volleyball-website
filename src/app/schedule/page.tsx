@@ -50,7 +50,7 @@ export default function SchedulePage() {
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-brand-red mb-2">Event #1</h3>
                 <p className="text-lg font-semibold text-brand-blue">June 6-8, 2025 (Friday-Sunday)</p>
-                <p className="text-neutral-600">Girls 13u-18u Divisions</p>
+                <p className="text-neutral-600">Girls U13-U18 Divisions</p>
               </div>
               
               <div className="space-y-4">
@@ -81,7 +81,7 @@ export default function SchedulePage() {
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-brand-red mb-2">Event #2</h3>
                 <p className="text-lg font-semibold text-brand-blue">June 9-10, 2025 (Monday-Tuesday)</p>
-                <p className="text-neutral-600">Girls 11u-18u & Boys 13u-14u</p>
+                <p className="text-neutral-600">Girls U11-U18 & Boys U13-U14</p>
               </div>
               
               <div className="space-y-4">
