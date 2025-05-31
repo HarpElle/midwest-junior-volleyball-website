@@ -156,7 +156,7 @@ export default function AboutPage() {
                 src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-action-volleyball.webp"
                 alt="Volleyball Action"
                 fill
-                className="object-cover opacity-20"
+                className="object-cover rounded-lg"
               />
             </div>
           </div>

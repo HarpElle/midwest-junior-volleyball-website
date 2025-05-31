@@ -44,13 +44,13 @@ export default function SponsorsPage() {
           <div className="bg-white p-8 lg:p-12 rounded-lg shadow-sm border border-neutral-200">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div className="text-center lg:text-left">
-                <div className="mb-6">
+                <div className="mb-6 flex justify-center lg:justify-start">
                   <Image
                     src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-asics.webp"
                     alt="ASICS Logo"
-                    width={200}
-                    height={100}
-                    className="h-16 w-auto object-contain"
+                    width={300}
+                    height={150}
+                    className="h-24 w-auto object-contain"
                   />
                 </div>
                 <div className="bg-brand-red text-white px-4 py-2 rounded-full text-sm font-semibold inline-block mb-4">
@@ -96,13 +96,15 @@ export default function SponsorsPage() {
             {/* Mikasa Sports */}
             <div className="bg-brand-powder/30 p-8 rounded-lg">
               <div className="text-center mb-6">
-                <Image
-                  src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-mikasa.webp"
-                  alt="Mikasa Logo"
-                  width={200}
-                  height={100}
-                  className="h-16 w-auto object-contain"
-                />
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-mikasa.webp"
+                    alt="Mikasa Logo"
+                    width={300}
+                    height={150}
+                    className="h-20 w-auto object-contain"
+                  />
+                </div>
                 <div className="bg-brand-red text-white px-4 py-2 rounded-full text-sm font-semibold inline-block">
                   30th Anniversary Partner - 2025
                 </div>
@@ -120,13 +122,15 @@ export default function SponsorsPage() {
             {/* BallerTV */}
             <div className="bg-white p-8 rounded-lg shadow-sm border border-neutral-200">
               <div className="text-center mb-6">
-                <Image
-                  src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-ballertv.webp"
-                  alt="BallerTV Logo"
-                  width={200}
-                  height={100}
-                  className="h-16 w-auto object-contain"
-                />
+                <div className="flex justify-center mb-4">
+                  <Image
+                    src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-ballertv.webp"
+                    alt="BallerTV Logo"
+                    width={300}
+                    height={150}
+                    className="h-20 w-auto object-contain"
+                  />
+                </div>
                 <div className="bg-brand-blue text-white px-4 py-2 rounded-full text-sm font-semibold inline-block">
                   Official Live Streaming Partner
                 </div>
