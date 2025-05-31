@@ -2,6 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/midwest-junior-volleyball-website',
+  assetPrefix: '/midwest-junior-volleyball-website',
   images: {
     unoptimized: true
   },
