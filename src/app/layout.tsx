@@ -28,11 +28,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/images/volleyball/volleyball-icon-vector.svg", type: "image/svg+xml" },
-      { url: "/images/volleyball/volleyball-icon-vector.svg", sizes: "32x32", type: "image/svg+xml" },
-      { url: "/images/volleyball/volleyball-icon-vector.svg", sizes: "16x16", type: "image/svg+xml" },
+      { url: "/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg", type: "image/svg+xml" },
+      { url: "/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg", sizes: "32x32", type: "image/svg+xml" },
+      { url: "/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg", sizes: "16x16", type: "image/svg+xml" },
     ],
-    apple: "/images/volleyball/volleyball-icon-vector.svg",
+    apple: "/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg",
   },
 };
 
