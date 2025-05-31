@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { EnvelopeIcon, MapPinIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
+import { getImagePath } from "@/lib/utils";
 
 export default function ContactPage() {
   return (
@@ -10,7 +11,7 @@ export default function ContactPage() {
       <section className="relative min-h-[400px] bg-gradient-to-r from-brand-blue/90 to-brand-blue/80 text-white">
         <div className="absolute inset-0">
           <Image
-            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src={getImagePath("/images/volleyball/optimized-photo-hero-volleyball.webp")}
             alt="Volleyball Championship"
             fill
             className="object-cover"
@@ -23,7 +24,7 @@ export default function ContactPage() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
               Contact Us
             </h1>
-            <p className="text-xl text-brand-powder mb-8">
+            <p className="text-xl md:text-2xl text-brand-powder mb-8">
               Get in touch with the tournament organizers
             </p>
           </div>

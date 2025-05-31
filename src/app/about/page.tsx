@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
+import { getImagePath } from "@/lib/utils";
 
 export default function AboutPage() {
   return (
@@ -9,7 +10,7 @@ export default function AboutPage() {
       <section className="relative min-h-[400px] bg-gradient-to-r from-brand-blue/90 to-brand-blue/80 text-white">
         <div className="absolute inset-0">
           <Image
-            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src={getImagePath("/images/volleyball/optimized-photo-hero-volleyball.webp")}
             alt="Volleyball Championship"
             fill
             className="object-cover"
@@ -36,7 +37,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <div className="w-24 h-24 mx-auto mb-6">
                 <Image
-                  src="/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg"
+                  src={getImagePath("/images/volleyball/volleyball-icon-vector.svg")}
                   alt="Volleyball Icon"
                   width={64}
                   height={64}
@@ -153,7 +154,7 @@ export default function AboutPage() {
             
             <div className="relative h-96">
               <Image
-                src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-action-volleyball.webp"
+                src={getImagePath("/images/volleyball/optimized-photo-action-volleyball.webp")}
                 alt="Volleyball Action"
                 fill
                 className="object-cover rounded-lg"
@@ -209,7 +210,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96">
               <Image
-                src="/midwest-junior-volleyball-website/images/venue/optimized-photo-venue-navypier-1.webp"
+                src={getImagePath("/images/venue/optimized-photo-venue-navypier-1.webp")}
                 alt="Navy Pier Festival Hall"
                 fill
                 className="object-cover"
@@ -281,7 +282,7 @@ export default function AboutPage() {
               </p>
               <div className="flex items-center">
                 <Image
-                  src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-jva.webp"
+                  src={getImagePath("/images/sponsors/optimized-logo-jva.webp")}
                   alt="JVA Logo"
                   width={120}
                   height={60}

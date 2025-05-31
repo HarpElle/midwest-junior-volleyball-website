@@ -15,8 +15,8 @@ export function Header() {
 
   const navigation = [
     { name: "Home", href: "/" },
+    { name: "Tournament Info", href: "/schedule" },
     { name: "About Us", href: "/about" },
-    { name: "Playing Waves", href: "/schedule" },
     { name: "Sponsors", href: "/sponsors" },
   ]
 

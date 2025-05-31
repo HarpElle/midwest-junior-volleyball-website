@@ -3,6 +3,7 @@ import { TOURNAMENT_INFO } from "@/lib/constants";
 import Link from "next/link";
 import Image from "next/image";
 import { CalendarIcon, TrophyIcon, MapPinIcon, ClockIcon, ExclamationTriangleIcon, InformationCircleIcon } from "@heroicons/react/24/outline";
+import { getImagePath } from "@/lib/utils";
 
 export default function SchedulePage() {
   return (
@@ -11,7 +12,7 @@ export default function SchedulePage() {
       <section className="relative min-h-[400px] bg-gradient-to-r from-brand-blue/90 to-brand-blue/80 text-white">
         <div className="absolute inset-0">
           <Image
-            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src={getImagePath("/images/volleyball/optimized-photo-hero-volleyball.webp")}
             alt="Volleyball Championship"
             fill
             className="object-cover"
@@ -22,9 +23,9 @@ export default function SchedulePage() {
         <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-              Tournament Schedule & Brackets
+              Tournament Information
             </h1>
-            <p className="text-xl text-brand-powder mb-8">
+            <p className="text-xl md:text-2xl text-brand-powder mb-8">
               2025 ASICS Junior National Volleyball Championships
             </p>
           </div>
@@ -281,7 +282,7 @@ export default function SchedulePage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="relative h-64">
                 <Image
-                  src="/midwest-junior-volleyball-website/images/venue/optimized-photo-venue-navypier-1.webp"
+                  src={getImagePath("/images/venue/optimized-photo-venue-navypier-1.webp")}
                   alt="Navy Pier Festival Hall A"
                   fill
                   className="object-cover rounded-lg"
@@ -289,7 +290,7 @@ export default function SchedulePage() {
               </div>
               <div className="relative h-64">
                 <Image
-                  src="/midwest-junior-volleyball-website/images/venue/optimized-photo-venue-navypier-2.webp"
+                  src={getImagePath("/images/venue/optimized-photo-venue-navypier-2.webp")}
                   alt="Navy Pier Festival Hall B"
                   fill
                   className="object-cover rounded-lg"
@@ -297,7 +298,7 @@ export default function SchedulePage() {
               </div>
               <div className="relative h-64">
                 <Image
-                  src="/midwest-junior-volleyball-website/images/venue/optimized-photo-venue-navypier-3.webp"
+                  src={getImagePath("/images/venue/optimized-photo-venue-navypier-3.webp")}
                   alt="Navy Pier Exterior"
                   fill
                   className="object-cover rounded-lg"
