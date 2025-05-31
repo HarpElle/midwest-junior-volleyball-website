@@ -19,6 +19,14 @@ export function Header() {
     { name: "Sponsors", href: "/sponsors" },
   ]
 
+  // Function to check if a link is active
+  const isActiveLink = (href: string) => {
+    if (href === '/') {
+      return pathname === '/' || pathname === '/midwest-junior-volleyball-website/' || pathname === '/midwest-junior-volleyball-website'
+    }
+    return pathname === href || pathname === `/midwest-junior-volleyball-website${href}` || pathname.endsWith(href)
+  }
+
   return (
     <header className="sticky top-0 z-50 w-full header-blur shadow-sm">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -63,7 +71,7 @@ export function Header() {
                 href={item.href}
                 className={cn(
                   'text-sm font-medium transition-colors hover:text-brand-red relative py-2',
-                  pathname === item.href
+                  isActiveLink(item.href)
                     ? 'text-brand-blue after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-brand-blue after:rounded-full'
                     : 'text-neutral-700'
                 )}
@@ -109,7 +117,7 @@ export function Header() {
                   href={item.href}
                   className={cn(
                     'block px-3 py-2 rounded-md text-base font-medium transition-colors',
-                    pathname === item.href
+                    isActiveLink(item.href)
                       ? 'text-brand-blue bg-brand-powder/30'
                       : 'text-neutral-700 hover:text-brand-red hover:bg-neutral-50'
                   )}
