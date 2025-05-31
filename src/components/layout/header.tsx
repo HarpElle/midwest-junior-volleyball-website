@@ -21,10 +21,19 @@ export function Header() {
 
   // Function to check if a link is active
   const isActiveLink = (href: string) => {
-    if (href === '/') {
-      return pathname === '/' || pathname === '/midwest-junior-volleyball-website/' || pathname === '/midwest-junior-volleyball-website'
+    // Normalize pathnames by removing trailing slashes and basePath
+    const normalizePathname = (path: string) => {
+      return path
+        .replace(/^\/midwest-junior-volleyball-website/, '') // Remove basePath
+        .replace(/\/$/, '') // Remove trailing slash
+        || '/' // Default to '/' if empty
     }
-    return pathname === href || pathname === `/midwest-junior-volleyball-website${href}` || pathname.endsWith(href)
+    
+    const normalizedPathname = normalizePathname(pathname)
+    const normalizedHref = normalizePathname(href)
+    
+    // Exact match for all pages
+    return normalizedPathname === normalizedHref
   }
 
   return (
