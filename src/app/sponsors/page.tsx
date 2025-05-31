@@ -9,7 +9,7 @@ export default function SponsorsPage() {
       <section className="relative min-h-[400px] bg-gradient-to-r from-brand-blue/90 to-brand-blue/80 text-white">
         <div className="absolute inset-0">
           <Image
-            src="/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
             alt="Volleyball Championship"
             fill
             className="object-cover"
@@ -46,11 +46,11 @@ export default function SponsorsPage() {
               <div className="text-center lg:text-left">
                 <div className="mb-6">
                   <Image
-                    src="/images/sponsors/optimized-logo-asics.webp"
-                    alt="ASICS America"
-                    width={300}
-                    height={120}
-                    className="mx-auto lg:mx-0"
+                    src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-asics.webp"
+                    alt="ASICS Logo"
+                    width={200}
+                    height={100}
+                    className="h-16 w-auto object-contain"
                   />
                 </div>
                 <div className="bg-brand-red text-white px-4 py-2 rounded-full text-sm font-semibold inline-block mb-4">
@@ -97,11 +97,11 @@ export default function SponsorsPage() {
             <div className="bg-brand-powder/30 p-8 rounded-lg">
               <div className="text-center mb-6">
                 <Image
-                  src="/images/sponsors/optimized-logo-mikasa.webp"
-                  alt="Mikasa Sports"
+                  src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-mikasa.webp"
+                  alt="Mikasa Logo"
                   width={200}
-                  height={80}
-                  className="mx-auto mb-4"
+                  height={100}
+                  className="h-16 w-auto object-contain"
                 />
                 <div className="bg-brand-red text-white px-4 py-2 rounded-full text-sm font-semibold inline-block">
                   30th Anniversary Partner - 2025
@@ -121,11 +121,11 @@ export default function SponsorsPage() {
             <div className="bg-white p-8 rounded-lg shadow-sm border border-neutral-200">
               <div className="text-center mb-6">
                 <Image
-                  src="/images/sponsors/optimized-logo-ballertv.webp"
-                  alt="BallerTV"
+                  src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-ballertv.webp"
+                  alt="BallerTV Logo"
                   width={200}
-                  height={80}
-                  className="mx-auto mb-4"
+                  height={100}
+                  className="h-16 w-auto object-contain"
                 />
                 <div className="bg-brand-blue text-white px-4 py-2 rounded-full text-sm font-semibold inline-block">
                   Official Live Streaming Partner
@@ -396,56 +396,56 @@ export default function SponsorsPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
             <div className="bg-white p-4 rounded-lg">
               <Image
-                src="/images/sponsors/optimized-logo-asics.webp"
+                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-asics.webp"
                 alt="ASICS"
-                width={200}
-                height={80}
-                className="w-full h-auto"
+                width={120}
+                height={60}
+                className="h-12 w-auto object-contain"
               />
             </div>
             <div className="bg-white p-4 rounded-lg">
               <Image
-                src="/images/sponsors/optimized-logo-mikasa.webp"
+                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-mikasa.webp"
                 alt="Mikasa"
-                width={200}
-                height={80}
-                className="w-full h-auto"
+                width={120}
+                height={60}
+                className="h-12 w-auto object-contain"
               />
             </div>
             <div className="bg-white p-4 rounded-lg">
               <Image
-                src="/images/sponsors/optimized-logo-ballertv.webp"
-                alt="Baller TV"
-                width={200}
-                height={80}
-                className="w-full h-auto"
+                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-ballertv.webp"
+                alt="BallerTV"
+                width={120}
+                height={60}
+                className="h-12 w-auto object-contain"
               />
             </div>
             <div className="bg-white p-4 rounded-lg">
               <Image
-                src="/images/sponsors/optimized-logo-mci.webp"
+                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-mci.webp"
                 alt="MCI"
-                width={200}
-                height={80}
-                className="w-full h-auto"
+                width={120}
+                height={60}
+                className="h-12 w-auto object-contain"
               />
             </div>
             <div className="bg-white p-4 rounded-lg">
               <Image
-                src="/images/sponsors/optimized-logo-jva.webp"
+                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-jva.webp"
                 alt="JVA"
-                width={200}
-                height={80}
-                className="w-full h-auto"
+                width={120}
+                height={60}
+                className="h-12 w-auto object-contain"
               />
             </div>
             <div className="bg-white p-4 rounded-lg">
               <Image
-                src="/images/sponsors/optimized-logo-gbolt.webp"
-                alt="G Bolt"
-                width={200}
-                height={80}
-                className="w-full h-auto"
+                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-gbolt.webp"
+                alt="G-Bolt"
+                width={120}
+                height={60}
+                className="h-12 w-auto object-contain"
               />
             </div>
           </div>

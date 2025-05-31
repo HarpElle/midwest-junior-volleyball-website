@@ -29,7 +29,7 @@ export function Header() {
               {/* SVG Volleyball Icon */}
               <div className="w-12 h-12 flex-shrink-0 transition-transform group-hover:scale-105">
                 <Image
-                  src="/images/volleyball/volleyball-icon-vector.svg"
+                  src="/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg"
                   alt="Volleyball Icon"
                   width={48}
                   height={48}

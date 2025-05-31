@@ -11,7 +11,7 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-blue via-brand-blue/90 to-brand-blue/80">
         <div className="absolute inset-0">
           <Image
-            src="/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
             alt="Volleyball Championship Action"
             fill
             className="object-cover"
@@ -330,7 +330,7 @@ export default function HomePage() {
       <section className="py-12 lg:py-16 bg-gradient-to-r from-brand-blue to-brand-blue/90 text-white relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/volleyball/optimized-photo-action-volleyball.webp"
+            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-action-volleyball.webp"
             alt="Volleyball Action"
             fill
             className="object-cover opacity-20"

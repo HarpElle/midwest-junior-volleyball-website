@@ -9,7 +9,7 @@ export default function AboutPage() {
       <section className="relative min-h-[400px] bg-gradient-to-r from-brand-blue/90 to-brand-blue/80 text-white">
         <div className="absolute inset-0">
           <Image
-            src="/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
             alt="Volleyball Championship"
             fill
             className="object-cover"
@@ -36,11 +36,11 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <div className="w-24 h-24 mx-auto mb-6">
                 <Image
-                  src="/images/volleyball/volleyball-icon-vector.svg"
-                  alt="Volleyball"
-                  width={96}
-                  height={96}
-                  className="w-full h-full"
+                  src="/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg"
+                  alt="Volleyball Icon"
+                  width={64}
+                  height={64}
+                  className="w-16 h-16"
                 />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-brand-blue">
@@ -153,10 +153,10 @@ export default function AboutPage() {
             
             <div className="relative h-96">
               <Image
-                src="/images/volleyball/optimized-photo-action-volleyball.webp"
-                alt="Volleyball Tournament Action"
+                src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-action-volleyball.webp"
+                alt="Volleyball Action"
                 fill
-                className="object-cover rounded-lg"
+                className="object-cover opacity-20"
               />
             </div>
           </div>
@@ -209,10 +209,10 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-96">
               <Image
-                src="/images/venue/optimized-photo-venue-navypier-1.webp"
-                alt="Navy Pier Venue"
+                src="/midwest-junior-volleyball-website/images/venue/optimized-photo-venue-navypier-1.webp"
+                alt="Navy Pier Festival Hall"
                 fill
-                className="object-cover rounded-lg"
+                className="object-cover"
               />
             </div>
             
@@ -281,13 +281,12 @@ export default function AboutPage() {
               </p>
               <div className="flex items-center">
                 <Image
-                  src="/images/sponsors/optimized-logo-jva.webp"
-                  alt="JVA Member Club"
-                  width={60}
-                  height={24}
-                  className="mr-3"
+                  src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-jva.webp"
+                  alt="JVA Logo"
+                  width={120}
+                  height={60}
+                  className="h-12 w-auto object-contain"
                 />
-                <span className="text-sm text-neutral-600">JVA Member Organization</span>
               </div>
             </div>
 

@@ -17,7 +17,7 @@ export function Footer() {
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-8 h-8 flex-shrink-0">
                   <Image
-                    src="/images/volleyball/volleyball-icon-vector-white.svg"
+                    src="/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector-white.svg"
                     alt="Volleyball Icon"
                     width={32}
                     height={32}

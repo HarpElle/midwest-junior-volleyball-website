@@ -10,7 +10,7 @@ export default function ContactPage() {
       <section className="relative min-h-[400px] bg-gradient-to-r from-brand-blue/90 to-brand-blue/80 text-white">
         <div className="absolute inset-0">
           <Image
-            src="/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
             alt="Volleyball Championship"
             fill
             className="object-cover"
