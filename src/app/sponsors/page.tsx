@@ -94,7 +94,7 @@ export default function SponsorsPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Mikasa Sports */}
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-neutral-200">
+            <div className="bg-brand-powder/30 p-8 rounded-lg">
               <div className="text-center mb-6">
                 <div className="flex justify-center mb-4">
                   <Image
@@ -105,7 +105,7 @@ export default function SponsorsPage() {
                     className="h-20 w-auto object-contain"
                   />
                 </div>
-                <div className="bg-brand-blue text-white px-4 py-2 rounded-full text-sm font-semibold inline-block">
+                <div className="bg-brand-red text-white px-4 py-2 rounded-full text-sm font-semibold inline-block">
                   30th Anniversary Partner - 2025
                 </div>
               </div>
@@ -120,7 +120,7 @@ export default function SponsorsPage() {
             </div>
 
             {/* BallerTV */}
-            <div className="bg-white p-8 rounded-lg shadow-sm border border-neutral-200">
+            <div className="bg-brand-powder/30 p-8 rounded-lg">
               <div className="text-center mb-6">
                 <div className="flex justify-center mb-4">
                   <Image
@@ -131,7 +131,7 @@ export default function SponsorsPage() {
                     className="h-20 w-auto object-contain"
                   />
                 </div>
-                <div className="bg-brand-blue text-white px-4 py-2 rounded-full text-sm font-semibold inline-block">
+                <div className="bg-brand-red text-white px-4 py-2 rounded-full text-sm font-semibold inline-block">
                   Official Live Streaming Partner
                 </div>
               </div>
