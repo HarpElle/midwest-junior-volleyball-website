@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
+import { getImagePath } from '@/lib/utils'
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -44,12 +45,12 @@ export function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-3 group">
               {/* SVG Volleyball Icon */}
-              <div className="w-12 h-12 flex-shrink-0 transition-transform group-hover:scale-105">
+              <div className="w-8 h-8 flex-shrink-0 transition-transform group-hover:scale-105">
                 <Image
-                  src="/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg"
+                  src={getImagePath("/images/volleyball/volleyball-icon-vector.svg")}
                   alt="Volleyball Icon"
-                  width={48}
-                  height={48}
+                  width={32}
+                  height={32}
                   className="w-full h-full"
                 />
               </div>

@@ -6,6 +6,13 @@ import { Footer } from "@/components/layout/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// Utility function to get the correct path based on environment
+function getAssetPath(path: string): string {
+  const isProd = process.env.NODE_ENV === 'production'
+  const basePath = isProd ? '/midwest-junior-volleyball-website' : ''
+  return `${basePath}${path}`
+}
+
 export const metadata: Metadata = {
   title: "Midwest Junior Volleyball Championships",
   description: "Premier junior volleyball championships featuring the best young talent from across the nation. Join us at Navy Pier for the 2025 ASICS Junior National Volleyball Championships.",
@@ -28,11 +35,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg", type: "image/svg+xml" },
-      { url: "/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg", sizes: "32x32", type: "image/svg+xml" },
-      { url: "/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg", sizes: "16x16", type: "image/svg+xml" },
+      { url: getAssetPath("/images/volleyball/volleyball-icon-vector.svg"), type: "image/svg+xml" },
+      { url: getAssetPath("/images/volleyball/volleyball-icon-vector.svg"), sizes: "32x32", type: "image/svg+xml" },
+      { url: getAssetPath("/images/volleyball/volleyball-icon-vector.svg"), sizes: "16x16", type: "image/svg+xml" },
     ],
-    apple: "/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector.svg",
+    apple: getAssetPath("/images/volleyball/volleyball-icon-vector.svg"),
   },
 };
 

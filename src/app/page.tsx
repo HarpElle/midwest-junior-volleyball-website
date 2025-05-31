@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { TOURNAMENT_INFO } from "@/lib/constants";
+import { getImagePath } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 import { CalendarIcon, MapPinIcon, TrophyIcon, DocumentTextIcon, MapIcon, BuildingOfficeIcon } from "@heroicons/react/24/outline";
@@ -11,7 +12,7 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-blue via-brand-blue/90 to-brand-blue/80">
         <div className="absolute inset-0">
           <Image
-            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src={getImagePath("/images/volleyball/optimized-photo-hero-volleyball.webp")}
             alt="Volleyball Championship Action"
             fill
             className="object-cover"
@@ -330,7 +331,7 @@ export default function HomePage() {
       <section className="py-12 lg:py-16 bg-gradient-to-r from-brand-blue to-brand-blue/90 text-white relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-action-volleyball.webp"
+            src={getImagePath("/images/volleyball/optimized-photo-action-volleyball.webp")}
             alt="Volleyball Action"
             fill
             className="object-cover opacity-20"

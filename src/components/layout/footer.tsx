@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { SITE_CONFIG, CONTACT_INFO, ORGANIZATION_INFO } from '@/lib/constants'
 import { Button } from '@/components/ui/button'
+import { getImagePath } from '@/lib/utils'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -17,7 +18,7 @@ export function Footer() {
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-8 h-8 flex-shrink-0">
                   <Image
-                    src="/midwest-junior-volleyball-website/images/volleyball/volleyball-icon-vector-white.svg"
+                    src={getImagePath("/images/volleyball/volleyball-icon-vector-white.svg")}
                     alt="Volleyball Icon"
                     width={32}
                     height={32}

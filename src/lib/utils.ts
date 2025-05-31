@@ -34,4 +34,11 @@ export function slugify(text: string): string {
 export function truncateText(text: string, maxLength: number): string {
   if (text.length <= maxLength) return text
   return text.slice(0, maxLength).trim() + '...'
+}
+
+// Utility function to get the correct image path based on environment
+export function getImagePath(path: string): string {
+  const isProd = process.env.NODE_ENV === 'production'
+  const basePath = isProd ? '/midwest-junior-volleyball-website' : ''
+  return `${basePath}${path}`
 } 
