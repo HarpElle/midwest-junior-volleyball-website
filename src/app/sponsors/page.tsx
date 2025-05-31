@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { getImagePath } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -9,7 +10,7 @@ export default function SponsorsPage() {
       <section className="relative min-h-[400px] bg-gradient-to-r from-brand-blue/90 to-brand-blue/80 text-white">
         <div className="absolute inset-0">
           <Image
-            src="/midwest-junior-volleyball-website/images/volleyball/optimized-photo-hero-volleyball.webp"
+            src={getImagePath("/images/volleyball/optimized-photo-hero-volleyball.webp")}
             alt="Volleyball Championship"
             fill
             className="object-cover"
@@ -46,7 +47,7 @@ export default function SponsorsPage() {
               <div className="text-center">
                 <div className="mb-6 flex justify-center">
                   <Image
-                    src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-asics.webp"
+                    src={getImagePath("/images/sponsors/optimized-logo-asics.webp")}
                     alt="ASICS Logo"
                     width={400}
                     height={200}
@@ -98,7 +99,7 @@ export default function SponsorsPage() {
               <div className="text-center mb-6">
                 <div className="flex justify-center mb-4">
                   <Image
-                    src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-mikasa.webp"
+                    src={getImagePath("/images/sponsors/optimized-logo-mikasa.webp")}
                     alt="Mikasa Logo"
                     width={300}
                     height={150}
@@ -124,7 +125,7 @@ export default function SponsorsPage() {
               <div className="text-center mb-6">
                 <div className="flex justify-center mb-4">
                   <Image
-                    src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-ballertv.webp"
+                    src={getImagePath("/images/sponsors/optimized-logo-ballertv.webp")}
                     alt="BallerTV Logo"
                     width={300}
                     height={150}
@@ -398,54 +399,54 @@ export default function SponsorsPage() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
-            <div className="bg-white p-4 rounded-lg">
+            <div className="bg-white p-4 rounded-lg flex justify-center">
               <Image
-                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-asics.webp"
+                src={getImagePath("/images/sponsors/optimized-logo-asics.webp")}
                 alt="ASICS"
                 width={120}
                 height={60}
                 className="h-12 w-auto object-contain"
               />
             </div>
-            <div className="bg-white p-4 rounded-lg">
+            <div className="bg-white p-4 rounded-lg flex justify-center">
               <Image
-                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-mikasa.webp"
+                src={getImagePath("/images/sponsors/optimized-logo-mikasa.webp")}
                 alt="Mikasa"
                 width={120}
                 height={60}
                 className="h-12 w-auto object-contain"
               />
             </div>
-            <div className="bg-white p-4 rounded-lg">
+            <div className="bg-white p-4 rounded-lg flex justify-center">
               <Image
-                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-ballertv.webp"
+                src={getImagePath("/images/sponsors/optimized-logo-ballertv.webp")}
                 alt="BallerTV"
                 width={120}
                 height={60}
                 className="h-12 w-auto object-contain"
               />
             </div>
-            <div className="bg-white p-4 rounded-lg">
+            <div className="bg-white p-4 rounded-lg flex justify-center">
               <Image
-                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-mci.webp"
+                src={getImagePath("/images/sponsors/optimized-logo-mci.webp")}
                 alt="MCI"
                 width={120}
                 height={60}
                 className="h-12 w-auto object-contain"
               />
             </div>
-            <div className="bg-white p-4 rounded-lg">
+            <div className="bg-white p-4 rounded-lg flex justify-center">
               <Image
-                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-jva.webp"
+                src={getImagePath("/images/sponsors/optimized-logo-jva.webp")}
                 alt="JVA"
                 width={120}
                 height={60}
                 className="h-12 w-auto object-contain"
               />
             </div>
-            <div className="bg-white p-4 rounded-lg">
+            <div className="bg-white p-4 rounded-lg flex justify-center">
               <Image
-                src="/midwest-junior-volleyball-website/images/sponsors/optimized-logo-gbolt.webp"
+                src={getImagePath("/images/sponsors/optimized-logo-gbolt.webp")}
                 alt="G-Bolt"
                 width={120}
                 height={60}
