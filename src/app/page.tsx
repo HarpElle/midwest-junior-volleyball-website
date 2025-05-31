@@ -476,19 +476,13 @@ export default function HomePage() {
           </p>
           
           <div className="max-w-md mx-auto">
-            <div className="flex flex-col sm:flex-row gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                className="flex-1 px-4 py-3 bg-white border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent text-neutral-900 placeholder-neutral-500"
-                required
-              />
-              <Button variant="white" size="lg" type="submit">
-                Subscribe
-              </Button>
-            </div>
-            <p className="text-sm text-brand-powder/80 mt-3 text-center">
-              Get tournament updates, schedule releases, and important announcements delivered to your inbox.
+            <Button variant="white" size="lg" asChild>
+              <Link href="mailto:midwestjvb@gmail.com?subject=Newsletter Signup&body=Please add me to your tournament newsletter mailing list.%0A%0AName: %0AEmail: ">
+                Subscribe to Newsletter
+              </Link>
+            </Button>
+            <p className="text-sm text-brand-powder/80 mt-4 text-center">
+              Click to send us an email requesting newsletter updates. We'll add you to our mailing list for tournament schedules, announcements, and championship news.
             </p>
           </div>
         </div>

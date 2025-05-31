@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { CONTACT_INFO } from "@/lib/constants";
-import { EnvelopeIcon, PhoneIcon, MapPinIcon, GlobeAltIcon } from "@heroicons/react/24/outline";
+import { EnvelopeIcon, MapPinIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -41,117 +40,39 @@ export default function ContactPage() {
                 Send Us a Message
               </h2>
               <p className="text-lg text-neutral-700 mb-8">
-                Have questions about the tournament? We're here to help. Fill out the form below 
-                and we'll get back to you as soon as possible.
+                Have questions about the tournament? We&apos;re here to help. Contact us directly 
+                and we&apos;ll get back to you as soon as possible.
               </p>
 
-              <form className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium text-neutral-700 mb-2">
-                      First Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="firstName"
-                      name="firstName"
-                      required
-                      className="w-full px-4 py-3 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent"
-                      placeholder="Enter your first name"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium text-neutral-700 mb-2">
-                      Last Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="lastName"
-                      name="lastName"
-                      required
-                      className="w-full px-4 py-3 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent"
-                      placeholder="Enter your last name"
-                    />
-                  </div>
+              <div className="bg-white p-8 rounded-lg border border-neutral-200 shadow-sm">
+                <div className="text-center">
+                  <EnvelopeIcon className="w-16 h-16 text-brand-blue mx-auto mb-4" />
+                  <h3 className="text-xl font-semibold text-brand-blue mb-4">Email Us Directly</h3>
+                  <p className="text-neutral-600 mb-6">
+                    Click the button below to open your email client with our address pre-filled.
+                  </p>
+                  <Button size="lg" asChild className="mb-6">
+                    <Link href="mailto:midwestjvb@gmail.com?subject=Tournament Inquiry">
+                      Send Email
+                    </Link>
+                  </Button>
+                  <p className="text-sm text-neutral-500">
+                    Or copy our email: <span className="font-mono text-brand-blue">midwestjvb@gmail.com</span>
+                  </p>
                 </div>
+              </div>
 
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-neutral-700 mb-2">
-                    Email Address *
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className="w-full px-4 py-3 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent"
-                    placeholder="Enter your email address"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-neutral-700 mb-2">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full px-4 py-3 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent"
-                    placeholder="Enter your phone number"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-neutral-700 mb-2">
-                    Subject *
-                  </label>
-                  <select
-                    id="subject"
-                    name="subject"
-                    required
-                    className="w-full px-4 py-3 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent"
-                  >
-                    <option value="">Select a subject</option>
-                    <option value="tournament-info">Tournament Information</option>
-                    <option value="registration">Team Registration</option>
-                    <option value="sponsorship">Sponsorship Opportunities</option>
-                    <option value="venue">Venue & Logistics</option>
-                    <option value="media">Media Inquiries</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-neutral-700 mb-2">
-                    Message *
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={6}
-                    required
-                    className="w-full px-4 py-3 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-transparent"
-                    placeholder="Enter your message here..."
-                  ></textarea>
-                </div>
-
-                <div className="flex items-start">
-                  <input
-                    type="checkbox"
-                    id="newsletter"
-                    name="newsletter"
-                    className="mt-1 h-4 w-4 text-brand-blue focus:ring-brand-blue border-neutral-300 rounded"
-                  />
-                  <label htmlFor="newsletter" className="ml-2 text-sm text-neutral-600">
-                    I would like to receive tournament updates and news via email
-                  </label>
-                </div>
-
-                <Button type="submit" size="lg" className="w-full">
-                  Send Message
-                </Button>
-              </form>
+              <div className="mt-8 p-6 bg-brand-powder/20 rounded-lg">
+                <h4 className="font-semibold text-brand-blue mb-3">Common Inquiry Topics:</h4>
+                <ul className="space-y-2 text-sm text-neutral-700">
+                  <li>• Tournament Information & Rules</li>
+                  <li>• Team Registration Process</li>
+                  <li>• Sponsorship Opportunities</li>
+                  <li>• Venue & Logistics Questions</li>
+                  <li>• Media Inquiries</li>
+                  <li>• Payment & Billing</li>
+                </ul>
+              </div>
             </div>
 
             {/* Contact Information */}
