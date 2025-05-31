@@ -5,7 +5,9 @@ const nextConfig = {
   basePath: '/midwest-junior-volleyball-website',
   assetPrefix: '/midwest-junior-volleyball-website',
   images: {
-    unoptimized: true
+    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './image-loader.js'
   },
   eslint: {
     ignoreDuringBuilds: true,
