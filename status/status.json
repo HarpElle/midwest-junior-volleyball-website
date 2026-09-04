@@ -1,0 +1,39 @@
+{
+  "schema": "harpelle-status/1",
+  "repo": "HarpElle/midwest-junior-volleyball-website",
+  "name": "Midwest Junior Volleyball site",
+  "kind": "Next.js site (Pages)",
+  "stage": "live",
+  "health": "idle",
+  "summary": "Club site; only security drafts open.",
+  "updatedAt": "2026-09-04",
+  "updatedBy": "Claude Code (Fable 5.1)",
+  "current": [
+    "Main last 2026-07-24. Drafts #4 (Dependabot) and #1 (Next.js/actions hardening)."
+  ],
+  "inFlight": [
+    {
+      "ref": "PR #4",
+      "title": "patch Dependabot transitive deps",
+      "state": "draft"
+    },
+    {
+      "ref": "PR #1",
+      "title": "Harden dependencies and Pages workflow",
+      "state": "draft"
+    }
+  ],
+  "blockers": [],
+  "decisions": [],
+  "next": [
+    "Merge the security drafts in one pass."
+  ],
+  "later": [],
+  "intentions": "Maintenance only.",
+  "links": [
+    {
+      "label": "Repo",
+      "url": "https://github.com/HarpElle/midwest-junior-volleyball-website"
+    }
+  ]
+}
