@@ -12,7 +12,6 @@ Maintenance only.
 
 ## Next (in order)
 
-- Merge the security drafts in one pass.
 
 ## Later (not scheduled)
 

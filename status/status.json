@@ -11,23 +11,10 @@
   "current": [
     "Main last 2026-07-24. Drafts #4 (Dependabot) and #1 (Next.js/actions hardening)."
   ],
-  "inFlight": [
-    {
-      "ref": "PR #4",
-      "title": "patch Dependabot transitive deps",
-      "state": "draft"
-    },
-    {
-      "ref": "PR #1",
-      "title": "Harden dependencies and Pages workflow",
-      "state": "draft"
-    }
-  ],
+  "inFlight": [],
   "blockers": [],
   "decisions": [],
-  "next": [
-    "Merge the security drafts in one pass."
-  ],
+  "next": [],
   "later": [],
   "intentions": "Maintenance only.",
   "links": [

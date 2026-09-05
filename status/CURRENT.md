@@ -11,8 +11,6 @@ Club site; only security drafts open.
 
 ## In flight
 
-- **PR #4** — patch Dependabot transitive deps (draft)
-- **PR #1** — Harden dependencies and Pages workflow (draft)
 
 ## Blockers
 
