@@ -4,23 +4,51 @@
   "name": "Midwest Junior Volleyball site",
   "kind": "Next.js site (Pages)",
   "stage": "live",
-  "health": "idle",
-  "summary": "Club site; only security drafts open.",
+  "health": "attention",
+  "summary": "Static club site on GitHub Pages; build green, content still describes the June 2025 event, two dev-only Dependabot alerts open, client status unconfirmed.",
   "updatedAt": "2026-09-04",
-  "updatedBy": "Claude Code (Fable 5.1)",
+  "updatedBy": "Claude Code (Fable 5.1 review)",
   "current": [
-    "Main last 2026-07-24. Drafts #4 (Dependabot) and #1 (Next.js/actions hardening)."
+    "Live at https://harpelle.com/midwest-junior-volleyball-website/ via .github/workflows/deploy.yml (SHA-pinned actions, PR-only main).",
+    "PRs #1 and #4 merged 2026-09-04; no open PRs, no stale branches.",
+    "Open Dependabot alerts: browserslist (high, dev-only) and @humanfs/node (medium, dev-only).",
+    "next build, tsc clean; next lint has 31 errors hidden by ignoreDuringBuilds; npm ci fails on npm 11 (lockfile missing optional bindings)."
   ],
   "inFlight": [],
   "blockers": [],
-  "decisions": [],
-  "next": [],
-  "later": [],
+  "decisions": [
+    "Is Midwest Junior Volleyball an active client? Recommended: confirm before refresh work; if not, retire the deployment and archive.",
+    "Keep the site under harpelle.com/midwest-junior-volleyball-website/? Recommended: client domain if live, past-event banner if portfolio.",
+    "Remove the newsletter forms instead of wiring them? Recommended: remove and keep the mailto link."
+  ],
+  "next": [
+    "Clear the two Dependabot alerts and resync the lockfile (S)",
+    "Remove dead files and unused dependencies (S)",
+    "Fix lint and make it a CI gate (S)",
+    "Centralize event facts and the base path in constants (M)",
+    "Decide the newsletter forms (S)",
+    "Refresh the event content for the next championship (M, needs client input)",
+    "Replace the README (S)"
+  ],
+  "later": [
+    "Custom domain and drop basePath (trigger: client confirms domain ownership)",
+    "Add .github/dependabot.yml with monthly groups (trigger: after alert cleanup)",
+    "Enforce HTTPS on org Pages settings (trigger: next org Pages change)",
+    "If not continuing: past-event banner or unpublish, then archive (trigger: Jason's client decision)"
+  ],
   "intentions": "Maintenance only.",
   "links": [
     {
       "label": "Repo",
       "url": "https://github.com/HarpElle/midwest-junior-volleyball-website"
+    },
+    {
+      "label": "Live site",
+      "url": "https://harpelle.com/midwest-junior-volleyball-website/"
+    },
+    {
+      "label": "Review 2026-09-04",
+      "url": "https://github.com/HarpElle/midwest-junior-volleyball-website/blob/main/status/REVIEW_2026-09-04.md"
     }
   ]
 }
