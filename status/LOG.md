@@ -1,5 +1,9 @@
 # Midwest Junior Volleyball site — status log (newest first)
 
+## 2026-09-05 — Claude Code (Fable 5.1)
+
+- Jason 2026-09-05: not an active client; deployment retired (GitHub Pages disabled) and repository archived.
+
 ## 2026-09-04 (review) — Claude Code (Fable 5.1 review)
 
 - Reviewed the full repo from a fresh clone: all six routes, layout, header,

@@ -1,7 +1,7 @@
 # Midwest Junior Volleyball site — current state
 
-Updated: 2026-09-04 by Claude Code (Fable 5.1 review)
-Stage: **live** · Health: **attention**
+Updated: 2026-09-05 by Claude Code (Fable 5.1)
+Stage: **retired** · Health: **idle**
 
 Static club site on GitHub Pages; build green, content still describes the
 June 2025 event, two dev-only Dependabot alerts open, client status unconfirmed.
@@ -20,6 +20,10 @@ June 2025 event, two dev-only Dependabot alerts open, client status unconfirmed.
 ## In flight
 
 - None.
+
+## Owner decisions 2026-09-05
+
+- Jason 2026-09-05: not an active client; deployment retired (GitHub Pages disabled) and repository archived.
 
 ## Blockers
 
